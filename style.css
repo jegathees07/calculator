@@ -1,0 +1,52 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(182, 179, 179);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: none;
+    margin: 5px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(126, 123, 123);
+}
+button:hover{
+    background-color: rgb(176, 175, 177) ;
+}
+button:active{
+    background-color: rgb(138, 137, 139) ;
+}
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    gap: 10px;
+    border-radius: 20px;
+}
+input{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.operator{
+    background-color: rgb(212, 141, 7);
+}
+.operator:active{
+    background-color: rgb(233, 177, 73);
+}
